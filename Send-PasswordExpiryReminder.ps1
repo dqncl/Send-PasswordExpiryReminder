@@ -64,6 +64,7 @@ function Get-PrimarySmtpAddress {
         return $null
     }
 }
+
 function Send-PasswordExpiryReminder {
 
     # Validate the content file
