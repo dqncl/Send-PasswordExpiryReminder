@@ -3,7 +3,7 @@ param (
     [ValidateNotNullOrEmpty()]
     [string]$Filter,
 
-    [Parameter(Mandatory = $false)]
+    [Parameter(Mandatory = $true)]
     [string]$SearchBase,
 
     [Parameter(Mandatory = $false)]
