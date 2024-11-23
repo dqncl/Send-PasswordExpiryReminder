@@ -5,6 +5,16 @@ This PowerShell script is designed to send email reminders to users whose passwo
 
 ---
 
+## **Prerequisites**
+1. **Active Directory Module**:
+   - Ensure the Active Directory PowerShell module is installed on the system.
+2. **Email Server**:
+   - Confirm that the SMTP server is accessible and configured for sending emails.
+3. **File Permissions**:
+   - Verify that the script has read permissions for the `ContentFile` and write permissions for the `LogPath` (if specified).
+   - 
+---
+
 ## **Parameters**
 
 ### **Mandatory Parameters**
@@ -155,15 +165,6 @@ The email template can contain the following placeholders:
   - **WARN**: Warnings about missing data (e.g., users without email addresses).
   - **ERROR**: Errors encountered during execution (e.g., failed AD queries).
 
----
-
-## **Prerequisites**
-1. **Active Directory Module**:
-   - Ensure the Active Directory PowerShell module is installed on the system.
-2. **Email Server**:
-   - Confirm that the SMTP server is accessible and configured for sending emails.
-3. **File Permissions**:
-   - Verify that the script has read permissions for the `ContentFile` and write permissions for the `LogPath` (if specified).
 
 ---
 
