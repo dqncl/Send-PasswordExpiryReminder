@@ -12,7 +12,7 @@ This PowerShell script is designed to send email reminders to users whose passwo
    - Confirm that the SMTP server is accessible and configured for sending emails.
 3. **File Permissions**:
    - Verify that the script has read permissions for the `ContentFile` and write permissions for the `LogPath` (if specified).
-   - 
+     
 ---
 
 ## **Parameters**
